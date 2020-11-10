@@ -1,3 +1,31 @@
+@media (max-width: 420px) {
+	.pages,.friends,.first,.profile{
+		display: none !important;
+	}
+	.card__image.loading { 
+		height: 200px !important; 
+		width: 200px !important;
+	} 
+	.postcontainer{
+		width: 100% !important;	
+	}
+}
+
+@media (min-width: 420px) and (max-width: 835px) {
+	.pages,.friends,.first,.profile{
+		display: none !important;
+	}
+	.card__image.loading { 
+		height: 200px !important; 
+		width: 370px;
+	} 
+	.postcontainer{
+		width: 90% !important;	
+	}
+}
+
+
+
 .fa{
 	color: #1877F2;
 }
@@ -222,30 +250,6 @@
 		transform: translateX(100%); 
 	} 
 } 
-
-@media only screen and (max-width: 420px) {
-	.appcontainer {
-	}
-}
-
-@media only screen and (min-width: 420px) and (max-width: 700px) {
-	.appcontainer {
-	}
-}
-
-@media only screen and (min-width: 700px) and (max-width: 800px) {
-	.appcontainer {
-	}
-}
-
-@media only screen and (min-width: 800px) and (max-width: 1224px) {
-	.appcontainer {
-	}
-}
-
-
-
-
 .people-list {
 	width: 260px;
 	float: left;
@@ -314,3 +318,6 @@ ul{
 .online{
 	color: #329F4C;
 }
+
+
+
